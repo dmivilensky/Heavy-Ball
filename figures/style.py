@@ -6,6 +6,7 @@ colors are the validated reference palette (blue, orange, aqua, violet for the f
 families; their pairwise CVD separation passes the all-pairs test).
 """
 import sys
+import os
 from pathlib import Path
 
 import matplotlib
@@ -15,7 +16,7 @@ from matplotlib import font_manager
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
-OUT = ROOT.parent / 'paper' / 'figures'
+OUT = Path(os.environ.get('HB_FIGURES', ROOT / 'figures' / 'pdf'))
 sys.path.insert(0, str(ROOT / 'part1'))
 sys.path.insert(0, str(ROOT / 'part2'))
 
@@ -94,14 +95,3 @@ def save(fig, name):
     fig.savefig(OUT / f'{name}.pdf', bbox_inches='tight', pad_inches=0.02)
     fig.savefig(DATA / f'{name}.png', bbox_inches='tight', pad_inches=0.02, dpi=200)
     plt.close(fig)
-
-
-def paper_number(label, default='?'):
-    """Number of a labeled statement of the paper, read from paper/main.aux (after a LaTeX run)."""
-    import re
-    aux = ROOT.parent / 'paper' / 'main.aux'
-    if aux.exists():
-        m = re.search(r'\\newlabel\{' + re.escape(label) + r'\}\{\{([^}]*)\}', aux.read_text(errors='ignore'))
-        if m:
-            return m.group(1)
-    return default

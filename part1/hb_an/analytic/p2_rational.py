@@ -54,6 +54,9 @@ check('Lemma p2ends(a): 32G^3-36G^2+4G-1 factorization', ok(32*G**3-36*G**2+4*G-
 check('Lemma p2ends(a): u-1+1/(2G) = 8 f1^2/(r- r+ q- q+)', ok(u-1+1/(2*G)-8*f1**2/(rm*rp*qm*qp)))
 num=s.numer(s.together(Ha.subs(Gs,G)))
 check('Lemma p2ends(b): N12 divides numerator of Ha(G(z))', s.rem(s.Poly(s.expand(num),z),s.Poly(N12,z)).is_zero)
+Glo,Ghi=G.subs(z,R('1.699')),G.subs(z,R('1.6989'))
+check('Lemma p2ends(b): Ha has exactly one root in [G(1.699),G(1.6989)], an interval containing (1.02358,1.02359)',
+      s.Poly(Ha,Gs).count_roots(Glo,Ghi)==1 and Glo<R('1.02358') and R('1.02359')<Ghi)
 check('dG/dz = r+ e- e+/(8 z^2 r-^2)', ok(s.diff(G,z)-rp*em*ep/(8*z**2*rm**2)))
 check('1+a+b = q-^3 e+/(2z r-^2 r+)', ok(1+a+b-qm**3*ep/(2*z*rm**2*rp)))
 check('1-a+b = -q-^3 e-/(2z r-^2 r+)', ok(1-a+b+qm**3*em/(2*z*rm**2*rp)))
@@ -154,7 +157,7 @@ check('(vii) du/dG<1', sign_of(1-uG,'1-uG')==1)
 # write residual file
 from pathlib import Path
 with open(Path(__file__).resolve().parent/'p2_residuals.txt','w') as fh:
-    fh.write('# All polynomial factors whose sign on J=[1.6955,1.699] is used in Section 3.\n')
+    fh.write('# All polynomial factors whose sign on J=[1.6955,1.699] is used in the proof of Theorem B.12.\n')
     fh.write('# Certificate: |R(zc)| > sum_{k>=1}|R_k| delta^k, zc=%s, delta=%s (Taylor coefficients R_k at zc).\n\n'%(zc,dl))
     for key,(sg_,p,label,v_,t_) in cert.items():
         fh.write('%s (degree %d), sign %s:\n%s\n  R(zc) = %s\n  sum_k |R_k| delta^k = %s\n  ratio = %.6f\n\n'%(label,s.Poly(p,z).degree(),'+' if sg_>0 else '-',p,v_,t_,float(t_/abs(v_))))

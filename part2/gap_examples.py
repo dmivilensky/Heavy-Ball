@@ -37,10 +37,12 @@ def in_gap_I4(Lc, y, x, beta):
     rr = [sp.re(z) for z in roots if abs(sp.im(z)) < 1e-40]
     assert len(rr) == 2
     # exact: L(0) > 0, L(cos 2pi/5) > 0, L at the vertex < 0, vertex in (0, cos 2pi/5)
-    c5 = (sp.sqrt(5) - 1) / 4
+    # cos(2pi/5) = (sqrt5 - 1)/4 is the positive root of 4c^2 + 2c - 1 and lies in (lo5, hi5)
+    lo5, hi5 = sp.Rational(309, 1000), sp.Rational(3091, 10000)
+    assert 4 * lo5 ** 2 + 2 * lo5 - 1 < 0 < 4 * hi5 ** 2 + 2 * hi5 - 1
     vert = sp.Rational(-sp.Poly(Lc, c).all_coeffs()[1], 2 * sp.Poly(Lc, c).all_coeffs()[0])
-    ok = (Lc.subs(c, 0) > 0) and (sp.simplify(Lc.subs(c, c5)) > 0) and (Lc.subs(c, vert) < 0) \
-        and (0 < vert) and (vert < c5)
+    ok = (Lc.subs(c, 0) > 0) and (Lc.subs(c, lo5) > 0) and (sp.Poly(Lc, c).count_roots(lo5, hi5) == 0) \
+        and (Lc.subs(c, vert) < 0) and (0 < vert) and (vert < lo5)
     # (y - x)(1 - beta)(1 + c - Xi) = L, so the dip is {Theta < omega/2}
     return bool(ok), [float(v) for v in rr]
 
@@ -97,6 +99,8 @@ def prop_13():
     print('  min lag slack, lags 1..12 both signs, lies in', mins)
     print('  gbar lies in', gbar)
     assert mins.a > 0 and gbar.a > 0
+    # the numbers stated in Proposition 9.4
+    assert mins.a >= iv.mpf('3.8594e-4').b and iv.mpf('0.79908').b < gbar.a and gbar.b < iv.mpf('0.79909').a
     q = sp.Poly(Xi, c).all_coeffs()[::-1]
     q0, q1, q2 = [I(Fr(int(sp.fraction(v)[0]), int(sp.fraction(v)[1]))) for v in q]
     theta0 = pi / 6; ct = iv.cos(theta0) / iv.sin(theta0); N = 4000; okth = True

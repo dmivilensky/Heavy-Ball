@@ -10,7 +10,7 @@ The two propositions of the first level are marked.
 import math
 import numpy as np
 from matplotlib.patches import Patch
-from style import paper_number, plt, save, INK, INK2, MUTED, TEXTWIDTH, DATA, AQUA, BLUE, RED, ORANGE, VIOLET, MAGENTA, tint
+from style import plt, save, INK, INK2, MUTED, TEXTWIDTH, DATA, AQUA, BLUE, RED, ORANGE, VIOLET, MAGENTA, tint
 import hbgeom as H
 from gap_data import boundary
 
@@ -25,8 +25,8 @@ C_CERT = ORANGE
 C_J = VIOLET
 C_NONE = INK
 C_DIV = '#e4e3df'
-POINTS = {'Prop. ' + paper_number('prop:13'): (70471 / 31800, 6169 / 9900),
-          'Prop. ' + paper_number('prop:conv-gap'): (111 / 50, 31 / 50)}
+POINTS = {'Prop. 9.4': (70471 / 31800, 6169 / 9900),
+          'Prop. 9.5': (111 / 50, 31 / 50)}
 
 
 def smallest_K(beta, aL):
@@ -115,7 +115,7 @@ def main():
         a.pcolormesh(rot[m], s, colorize(lab_v[:, m], K[:, m]), shading='nearest', rasterized=True)
         for name, r0, s0 in mark_points(a):
             if lo <= r0 <= hi:
-                dx = -0.0085 if name.endswith(paper_number('prop:13')) else 0.0085
+                dx = -0.0085 if name.endswith('9.4') else 0.0085
                 a.annotate(name, xy=(r0, s0), xytext=(r0 + dx, 0.022), fontsize=6.5, ha='center',
                            bbox=dict(boxstyle='round,pad=0.15', fc='white', ec='none', alpha=0.85),
                            arrowprops=dict(arrowstyle='-', lw=0.5, color=INK))

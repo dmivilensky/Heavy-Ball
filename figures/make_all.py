@@ -1,4 +1,5 @@
-"""Build all figures of the paper into paper/figures/ (PDF) and data/ (PNG previews).
+"""Build all figures of the paper into figures/pdf/ (PDF; another folder can be set with the environment
+variable HB_FIGURES) and data/ (PNG previews).
 
 Usage: python make_all.py [--data]
 

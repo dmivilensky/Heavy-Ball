@@ -62,4 +62,18 @@ uv,xv,yv,pv,dv,W=aa;hh=ga-1
 point5=[(uv-arb('.5'))/hh,(xv+arb('.5'))/hh,yv,pv/hh,dv/hh,W,1-W]
 identify('central',hh,point5)
 assert aa[3]>0 and aa[3]<1 and aa[5]>0 and aa[5]<1
+# Theorem B.13 / Proposition B.18: the exact critical point Z0 (h = 0) lies in the first box of the central family.
+yy=s.Symbol('yy');q5=32*yy**5-40*yy**4+16*yy**3-6*yy**2-12*yy+3
+r5=s.Poly(q5,yy).intervals(eps=s.Rational(1,10**65),inf=s.Rational(23188,100000),sup=s.Rational(23189,100000))
+assert len(r5)==1 and r5[0][1]==1
+l5,h5=map(rational,r5[0][0]);y0=arb((l5+h5)/2,(h5-l5)/2)
+def at_y0(cs):return sum((rational(s.Rational(a))*y0**k for k,a in enumerate(cs)),arb(0))
+Q_=s.Rational
+A0=at_y0([Q_(693,1208),-Q_(75,302),Q_(27,604),-Q_(77,302),-Q_(34,151)])
+B0=at_y0([-Q_(7471,2416),Q_(19977,1208),-Q_(29287,1208),Q_(16769,604),-Q_(2275,151)])
+D0=at_y0([Q_(4381,2416),Q_(1773,1208),-Q_(1959,1208),Q_(2097,604),-Q_(243,151)])
+P0=at_y0([-Q_(501309,8456),Q_(1529793,4228),-Q_(2294121,4228),Q_(1393863,2114),-Q_(396330,1057)])
+W20=at_y0([Q_(k_,43243231) for k_ in (10388100,22511544,5194992,15609088,36571392)])
+W30=at_y0([Q_(k_,43243231) for k_ in (25003776,3069756,708408,2128512,4987008)])
+identify('central',arb(0),[A0,B0,y0,P0,D0,W20,W30])
 print('ALL ENDPOINT IDENTITIES AND BRANCH IDENTIFICATIONS PASSED')

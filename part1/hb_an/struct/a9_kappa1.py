@@ -42,3 +42,10 @@ rs = rho_series(1 - z/2); r1 = rho_series(s1w)
 print("spiral   rho/q =", sp.expand(sp.radsimp(rs/q)))
 print("one-wave rho/q =", sp.expand(sp.radsimp(r1/q)))
 print("difference (one-wave - spiral) =", sp.factor(sp.radsimp(sp.expand(r1 - rs))))
+# Theorem 2.3: rho_HB = (1+sqrt2) q - (2+3sqrt2/2) q^2 + O(q^3), rho_HB - rho_sp = (10+7sqrt2)/4 q^3 + O(q^4)
+r2 = sp.sqrt(2); Pq = sp.Poly(sp.expand(r1), q); Dq = sp.Poly(sp.expand(r1 - rs), q)
+ok = (sp.simplify(Pq.coeff_monomial(q) - (1 + r2)) == 0 and sp.simplify(Pq.coeff_monomial(q**2) + 2 + 3*r2/2) == 0
+      and all(sp.simplify(Dq.coeff_monomial(q**j)) == 0 for j in (0, 1, 2))
+      and sp.simplify(Dq.coeff_monomial(q**3) - (10 + 7*r2)/4) == 0)
+print("coefficients stated in Theorem 2.3 (q -> 0):", ok)
+assert ok

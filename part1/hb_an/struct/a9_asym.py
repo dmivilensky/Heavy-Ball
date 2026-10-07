@@ -31,6 +31,7 @@ Frr, Frq, Fqq = sp.diff(Fp, r, 2), sp.diff(Fp, r, qv), sp.diff(Fp, qv, 2)
 at1 = lambda ex: ex.subs(qv, 1)
 print("F(r,1) - m(r) =", sp.expand(at1(Fp) - mr))
 print("F_r(rho_*,1) != 0: resultant(F_r, m) =", sp.resultant(at1(Fr), mr, r))
+assert sp.expand(at1(Fp) - mr) == 0 and sp.resultant(at1(Fr), mr, r) != 0
 rp = redr(-at1(Fq)/at1(Fr))
 rpp = redr(-(at1(Fqq) + 2*at1(Frq)*rp + at1(Frr)*rp**2)/at1(Fr))
 c1r = redr(2*rp); c2r = redr(2*rpp + 2*rp)          # q(e) = (1-e)/(1+e): q_e = -2, q_ee = 4

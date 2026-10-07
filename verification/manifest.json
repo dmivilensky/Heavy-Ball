@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "python": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 17.0.0 (clang-1700.6.4.2)]",
   "versions": {
     "sympy": "1.14.0",
     "mpmath": "1.3.0",
@@ -11,7 +11,7 @@
   },
   "sources_sha256": {
     "part1/hb_an/analytic/cert.py": "65abe5db59c7df976059379fa8717a848b6fe0c63259bab7f2580e85b3df2198",
-    "part1/hb_an/analytic/p2_rational.py": "334ef9d66b0864f2ed3bc606d3843586435b4c4a2d0c824d6e9e462e1958706f",
+    "part1/hb_an/analytic/p2_rational.py": "0bb6060ac9a50bb33035c94a8012df661d03cae5eabe46823668a4c79d3ff2a0",
     "part1/hb_an/analytic/p5_critical.py": "350ce5e544fa1975b81315053ca103260d3fc8a40d0d9c080cd8bd6558bc9310",
     "part1/hb_an/base/base_check.py": "92ff1131273ad8e9065fcf422ddc0e48bdcc9c45892d0ab8f7ab69f15fbe4a23",
     "part1/hb_an/lower/a3_identities.py": "896b6ab206e7b86a2bf4645a027900521de784237cbb9c8355ad6f6f49ac470b",
@@ -21,9 +21,9 @@
     "part1/hb_an/regimes/branch_checks.py": "04ea68747cc8d4a4c0eef11550b8d3b9ce2ebbc637b1c840fd60c2b0419247cd",
     "part1/hb_an/regimes/branch_systems.py": "72dc3887f9814eaaede53022c5718dfef27e8d80fe17dad79a08c41d353152db",
     "part1/hb_an/regimes/continue_certify.py": "5629e3aadd9829772f476a4b0047d63442c5e20d05cf663317f0170088408964",
-    "part1/hb_an/regimes/endpoints.py": "63688c59591f0f7f9a53c5744ac41a8237d45ae9cb7add31637e1b097e51fe85",
+    "part1/hb_an/regimes/endpoints.py": "51c9e1cdac9584d83f6e95b07f132daf59348a3fbe42a6950b87258bdbe0b16c",
     "part1/hb_an/regimes/interval_core.py": "ee46795992e29de5fd093a863d43490b1a1e9065c88a2f13b9d7f02ce13b8d43",
-    "part1/hb_an/regimes/p1_slacks.py": "28ac9ef6abdeb2513b402309509cd2d882091aa8417c418dfffb449e7c0826d1",
+    "part1/hb_an/regimes/p1_slacks.py": "ed012692ff6b2fa7bf711f5876f741c8a7d52d0427af89af114420f1dddc4083",
     "part1/hb_an/regimes/p2_field.py": "402bce5315e904635ef8b96621931dd115e9e50c88c3087bb57dd8a5e8c62ed1",
     "part1/hb_an/regimes/verify_regimes.py": "088c86f945af0647b3126e9276d5abc62c55a9dff4cec29143e8e4880b58bba8",
     "part1/hb_an/struct/a7_cycles.py": "97234d9cd1168bc2735c720b78c834aed034ce160cca06b94c0e8477a444e351",
@@ -36,8 +36,8 @@
     "part1/hb_an/struct/a8_kkt.py": "7c4f1502595ab0eeb066a23b00c0dd3ff6b99095e09e715126981814a41427e7",
     "part1/hb_an/struct/a8_onewave.py": "b0b2d103a8bb1554959d35b8d2806d1e1db2473e46fbdf508c52f7df5f9d2315",
     "part1/hb_an/struct/a8_regular.py": "58e68b37bb599ef645250faf0e87bdc22a7bc61e98c27db9086f97f5bfc4a42e",
-    "part1/hb_an/struct/a9_asym.py": "b876110714eabf76ebe5f1b30ed5038b3a7b732647e83d85c78a7f5c73b670be",
-    "part1/hb_an/struct/a9_kappa1.py": "50ef63917138b9080621254b6178617dd55aaf7ecd4abc33789f4e8c1e349766",
+    "part1/hb_an/struct/a9_asym.py": "80696bf1d02c2375f839d2ea050bf99f4b999041bd5b552ce0e4c66e05d17b56",
+    "part1/hb_an/struct/a9_kappa1.py": "219f4efd532492bea3e4f644c261c61ca755cf7d02cd4cfbcdfa1a961a3a4c03",
     "part1/hb_an/struct/common.py": "1e5e1e85f3834075913a4e8b530dc23c08c9d4127082e57d5de1b8a0e8566dcf",
     "part1/hb_an/struct/cs_form.py": "b43c4410e0a134cfb0865f4efc5f10b828e0ed9c42244c4ee5d4b2709727e019",
     "part1/hb_an/upper/bernstein.py": "17cc89a88480e5b76f2538dc37017ec6462137c173b87839e0df3418f7ccd71c",
@@ -47,7 +47,7 @@
     "part1/spiral/spiral_subopt.py": "e7b484538c216bb91bfdf0e0eb82421307a7c1fa4e6de08e6d6c5d454bf6f950",
     "part2/convexity.py": "ab38fdd6507852d8bd85c30a3346a2251ebe263921c21b43d25568df38c784e4",
     "part2/fan_identities.py": "59983f16414b4a1e615f6078892dd90a6cbf07836692ebabeb6f9cac604a4b4d",
-    "part2/gap_examples.py": "b3070d4b05289c62fb3e8d52a5759e69fbe18808139211422e2efd1e1c587d18",
+    "part2/gap_examples.py": "b32c1e6d95e271130f8f372db4593c33fb2353faec22160ffdb7519c5d7d98ca",
     "part2/hbgeom.py": "a12a16583039339b3fd207ad7696cd1777fa0ad648203583ea76f923c2681821",
     "part2/identities.py": "20a4488366bdeb73da3c23c08aaa63a9965588c352432255723adf3af4fbee7e"
   },
@@ -56,151 +56,157 @@
       "script": "part1/hb_an/base/base_check.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 17.19
+      "seconds": 14.91
     },
     {
       "script": "part1/hb_an/upper/upper_sym.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 13.87
+      "seconds": 14.65
     },
     {
       "script": "part1/hb_an/lower/a3_identities.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 79.59
+      "seconds": 20.41
     },
     {
       "script": "part1/hb_an/lower/a3_regions.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 484.67
+      "seconds": 56.5
     },
     {
       "script": "part1/hb_an/struct/a7_involution.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 22.85
+      "seconds": 15.44
     },
     {
       "script": "part1/hb_an/struct/a7_thresholds.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 14.67
+      "seconds": 1.35
     },
     {
       "script": "part1/hb_an/struct/a7_minpolys.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 3.46
+      "seconds": 0.37
     },
     {
       "script": "part1/hb_an/struct/a7_cycles.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 2.66
+      "seconds": 0.28
     },
     {
       "script": "part1/hb_an/struct/a7_threshold_kc.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 4.69
+      "seconds": 0.48
     },
     {
       "script": "part1/hb_an/struct/a8_kkt.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 6.44
+      "seconds": 0.64
     },
     {
       "script": "part1/hb_an/struct/a8_elim.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 7.75
+      "seconds": 0.86
     },
     {
       "script": "part1/hb_an/struct/a8_onewave.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 30.24
+      "seconds": 2.82
     },
     {
       "script": "part1/hb_an/struct/a8_curves.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 3.79
+      "seconds": 0.47
     },
     {
       "script": "part1/hb_an/struct/a8_regular.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 5.51
+      "seconds": 0.69
     },
     {
       "script": "part1/hb_an/struct/a9_asym.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 4.04
+      "seconds": 0.5
     },
     {
       "script": "part1/hb_an/struct/a9_kappa1.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 100.26
+      "seconds": 8.25
     },
     {
       "script": "part1/hb_an/regimes/verify_regimes.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 392.22
+      "seconds": 57.57
     },
     {
       "script": "part1/hb_an/analytic/p5_critical.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 21.02
+      "seconds": 15.21
     },
     {
       "script": "part1/hb_an/analytic/p2_rational.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 669.94
+      "seconds": 93.46
     },
     {
       "script": "part1/spiral/spiral_kernel.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 637.08
+      "seconds": 81.1
     },
     {
       "script": "part1/spiral/spiral_subopt.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 10.33
+      "seconds": 0.89
     },
     {
       "script": "part2/identities.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 19.0
+      "seconds": 1.72
     },
     {
       "script": "part2/convexity.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 8.85
+      "seconds": 0.8
     },
     {
       "script": "part2/fan_identities.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 16.44
+      "seconds": 14.46
     },
     {
       "script": "part2/gap_examples.py",
       "passed": true,
       "exit_code": 0,
-      "seconds": 4.51
+      "seconds": 0.46
+    },
+    {
+      "script": "figures/make_all.py",
+      "passed": true,
+      "exit_code": 0,
+      "seconds": 21.13
     }
   ]
 }

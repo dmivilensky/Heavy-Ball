@@ -10,3 +10,4 @@ spiral  : sh v = 1 - z/2
 spiral   rho/q = 45*sqrt(2)*q**3/16 + 4*q**3 + 4*q**2 + 23*sqrt(2)*q**2/8 - 3*sqrt(2)*q/2 - 2*q + 1 + sqrt(2)
 one-wave rho/q = -385*sqrt(2)*q**3/16 - 34*q**3 + 13*q**2/2 + 37*sqrt(2)*q**2/8 - 3*sqrt(2)*q/2 - 2*q + 1 + sqrt(2)
 difference (one-wave - spiral) = -q**3*(304*q + 215*sqrt(2)*q - 20 - 14*sqrt(2))/8
+coefficients stated in Theorem 2.3 (q -> 0): True

@@ -11,6 +11,7 @@ OK   Lemma p2ids(c): l1=u2=u3=0
 OK   Lemma p2ends(a): 32G^3-36G^2+4G-1 factorization
 OK   Lemma p2ends(a): u-1+1/(2G) = 8 f1^2/(r- r+ q- q+)
 OK   Lemma p2ends(b): N12 divides numerator of Ha(G(z))
+OK   Lemma p2ends(b): Ha has exactly one root in [G(1.699),G(1.6989)], an interval containing (1.02358,1.02359)
 OK   dG/dz = r+ e- e+/(8 z^2 r-^2)
 OK   1+a+b = q-^3 e+/(2z r-^2 r+)
 OK   1-a+b = -q-^3 e-/(2z r-^2 r+)
