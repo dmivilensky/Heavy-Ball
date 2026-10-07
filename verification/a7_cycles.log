@@ -1,0 +1,5 @@
+(i) a_1 - b_1 - (1-c)((1-2s)-(c+s)^2) = 0
+(ii) m=1: a_m=3/4, b_m=3/4, a_m-|b_m|=0
+(ii) m=2: a_m=3/4, b_m=-3/4, a_m-|b_m|=0
+(ii) m=3: a_m=0, b_m=0, a_m-|b_m|=0
+     (a_m, b_m depend on m mod 3 only)

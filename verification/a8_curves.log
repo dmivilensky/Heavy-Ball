@@ -1,0 +1,6 @@
+D2(1/X,Y)*X^8 - D2 = 0
+P2 = 256*ch_t**4*sh_v**2 - 256*ch_t**4 - 512*ch_t**3*sh_v**3 + 768*ch_t**3*sh_v - 32*ch_t**2*sh_v**4 - 480*ch_t**2*sh_v**2 - 16*ch_t*sh_v**3 - sh_v**4 - 16*sh_v**2
+P1 = 112*ch_t**10*sh_v**2 - 112*ch_t**10 - 400*ch_t**9*sh_v**3 + 512*ch_t**9*sh_v + 296*ch_t**8*sh_v**4 - 816*ch_t**8*sh_v**2 + 120*ch_t**8 - 404*ch_t**7*sh_v**5 + 1260*ch_t**7*sh_v**3 - 624*ch_t**7*sh_v + 1104*ch_t**6*sh_v**6 - 2289*ch_t**6*sh_v**4 + 1173*ch_t**6*sh_v**2 - 39*ch_t**6 + 52*ch_t**5*sh_v**7 + 1830*ch_t**5*sh_v**5 - 1638*ch_t**5*sh_v**3 + 252*ch_t**5*sh_v + 28*ch_t**4*sh_v**8 - 1120*ch_t**4*sh_v**6 + 2250*ch_t**4*sh_v**4 - 592*ch_t**4*sh_v**2 + 4*ch_t**4 - 22*ch_t**3*sh_v**7 - 1092*ch_t**3*sh_v**5 + 784*ch_t**3*sh_v**3 - 32*ch_t**3*sh_v - 23*ch_t**2*sh_v**8 + 336*ch_t**2*sh_v**6 - 728*ch_t**2*sh_v**4 + 96*ch_t**2*sh_v**2 + 160*ch_t*sh_v**5 - 128*ch_t*sh_v**3 + 4*sh_v**8 - 32*sh_v**6 + 64*sh_v**4
+P2 on spiral: -(32*ch_t**3 - 36*ch_t**2 + 4*ch_t - 1)**2
+P1 on spiral: -(2*ch_t - 1)**2*(2*ch_t**2 - 2*ch_t - 1)**2*(448*ch_t**10 - 1152*ch_t**9 + 800*ch_t**8 - 1248*ch_t**7 + 3212*ch_t**6 - 2512*ch_t**5 + 108*ch_t**4 + 688*ch_t**3 - 345*ch_t**2 + 64*ch_t - 4)
+p10 roots in [1, oo): 0

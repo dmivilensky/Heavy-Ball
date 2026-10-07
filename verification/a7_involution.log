@@ -1,0 +1,14 @@
+(1) a_m(iota) - a_m      = 0
+    x_m(iota) - x_m      = 0
+    star |C|<=g: g unchanged, |C| unchanged (trivial)
+(1') s_orbit - ch(v+iw) at v=t-ln q: 0
+(2) F(1/rho,q/rho^2)*rho^6 - F(rho,q) = 0
+    H_q(rho) - F(rho,q) = 0
+(3) F(X,X/Y)*Y^2/X^2 - S = 0
+    S - 2Y(1+X^2)(shv - 1 + 1/(2 cht)) = 0
+(4) L_m, U_m even in t (X->1/X) at fixed Y for m=1..7: OK  [general m: a_m, r_m even, b_m t-free]
+(5) denominator of Kt: 4*X*Y**2*(X**2 + 1)*(X**2 - X + 1)*(X**2 + X + 1)
+    R(X,Y,c=ch t,W) = 0
+    R(1/X)*X^k - R : k with identity: [8]
+    L_m(c=ch t) = 2 sh v sh^2 t = -U_m(c=ch t), m=1..6: OK
+(6) L_m(+-1) = U_m(+-1) = -sh^2 v * r_m (ch mt - (+-1)^m), m=1..6: OK

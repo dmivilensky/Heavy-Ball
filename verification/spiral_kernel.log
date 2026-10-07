@@ -1,0 +1,5 @@
+F_1 = F_2 = 0: True
+F_n >= 0 coefficientwise, F_n(0) = 3[3|n], positive s-coefficient: 3 <= n <= 200
+generating function identity: coefficients 0..40 match
+expansion identity and nonnegative factors: True
+ALL OK

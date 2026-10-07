@@ -1,0 +1,4 @@
+OK     h' = -M/sin^2 w and h'' = N/sin^3 w
+OK     2 Xi M^2 - N(1 - c^2 + Xi^2) = W/2 (polynomial identity)
+OK     Theta'' = W/(2 sin^5 w (1 + cot^2 Theta)^2) at 25 random points (rel. diff 1.2e-14)
+ALL OK

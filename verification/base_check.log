@@ -1,0 +1,12 @@
+det = (rho - 1)*(rho + 1)*(2*c*rho - rho**2 - 1)**2*(c*rho**2 + c + rho)/rho**4
+det identity: True
+C = g*(rho - 1)*(rho + 1)/(rho**2 + 1)  B = g*(rho**2 - rho + 1)*(rho**2 + rho + 1)/(rho*(rho**2 + 1))
+C==g th t: True  B formula: True  U3 residual: True
+g = sh v / ch t : True
+roots sh v: [(-rho**2 - rho - 1)/(rho**2 + 1), (rho**2 - rho + 1)/(rho**2 + 1)]
+H==F: True
+2q rho (1+rho^2)(sh v -1 + 1/(2ch t)) == F : True
+F(rho,q(rho))==0: True
+q(1)= -1/2 + sqrt(5)/2  kappa_c= (1 + sqrt(5))**2/(3 - sqrt(5))**2
+g formula (rho^2-q^2)/(q(1+rho^2)) on F=0:  0
+E_n lemma m=1..12: True   E1,E2: 0 0

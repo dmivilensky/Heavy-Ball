@@ -1,0 +1,287 @@
+START branch_systems.py
+p1 [26, 18]
+central [29, 51, 66, 107, 290, 236, 236]
+p2 [19, 21, 34, 27, 19, 19]
+START p2_field.py
+W computed
+atom polynomial computed
+moment and C*sinh(t) computed
+U5 expression computed
+Perfect-square and primal identities: OK
+field cached
+START continue_certify.py p1 4000
+p1 certified 50 through 0.0091625
+p1 certified 100 through 0.018325
+p1 certified 150 through 0.0274875
+p1 certified 200 through 0.03665
+p1 certified 250 through 0.0458125
+p1 certified 300 through 0.054975
+p1 certified 350 through 0.0641375
+p1 certified 400 through 0.0733
+p1 certified 450 through 0.08246250000000001
+p1 certified 500 through 0.091625
+p1 certified 550 through 0.1007875
+p1 certified 600 through 0.10995
+p1 certified 650 through 0.11911250000000001
+p1 certified 700 through 0.128275
+p1 certified 750 through 0.13743750000000002
+p1 certified 800 through 0.1466
+p1 certified 850 through 0.1557625
+p1 certified 900 through 0.16492500000000002
+p1 certified 950 through 0.1740875
+p1 certified 1000 through 0.18325
+p1 certified 1050 through 0.19241250000000001
+p1 certified 1100 through 0.201575
+p1 certified 1150 through 0.21073750000000002
+p1 certified 1200 through 0.2199
+p1 certified 1250 through 0.2290625
+p1 certified 1300 through 0.23822500000000002
+p1 certified 1350 through 0.2473875
+p1 certified 1400 through 0.25655
+p1 certified 1450 through 0.2657125
+p1 certified 1500 through 0.27487500000000004
+p1 certified 1550 through 0.2840375
+p1 certified 1600 through 0.2932
+p1 certified 1650 through 0.30236250000000003
+p1 certified 1700 through 0.311525
+p1 certified 1750 through 0.3206875
+p1 certified 1800 through 0.32985000000000003
+p1 certified 1850 through 0.3390125
+p1 certified 1900 through 0.348175
+p1 certified 1950 through 0.35733750000000003
+p1 certified 2000 through 0.3665
+p1 certified 2050 through 0.3756625
+p1 certified 2100 through 0.38482500000000003
+p1 certified 2150 through 0.39398750000000005
+p1 certified 2200 through 0.40315
+p1 certified 2250 through 0.4123125
+p1 certified 2300 through 0.42147500000000004
+p1 certified 2350 through 0.4306375
+p1 certified 2400 through 0.4398
+p1 certified 2450 through 0.44896250000000004
+p1 certified 2500 through 0.458125
+p1 certified 2550 through 0.4672875
+p1 certified 2600 through 0.47645000000000004
+p1 certified 2650 through 0.4856125
+p1 certified 2700 through 0.494775
+p1 certified 2750 through 0.5039375
+p1 certified 2800 through 0.5131
+p1 certified 2850 through 0.5222625000000001
+p1 certified 2900 through 0.531425
+p1 certified 2950 through 0.5405875
+p1 certified 3000 through 0.5497500000000001
+p1 certified 3050 through 0.5589125
+p1 certified 3100 through 0.568075
+p1 certified 3150 through 0.5772375000000001
+p1 certified 3200 through 0.5864
+p1 certified 3250 through 0.5955625
+p1 certified 3300 through 0.6047250000000001
+p1 certified 3350 through 0.6138875
+p1 certified 3400 through 0.62305
+p1 certified 3450 through 0.6322125000000001
+p1 certified 3500 through 0.641375
+p1 certified 3550 through 0.6505375
+p1 certified 3600 through 0.6597000000000001
+p1 certified 3650 through 0.6688625
+p1 certified 3700 through 0.678025
+p1 certified 3750 through 0.6871875000000001
+p1 certified 3800 through 0.69635
+p1 certified 3850 through 0.7055125
+p1 certified 3900 through 0.7146750000000001
+p1 certified 3950 through 0.7238375
+p1 certified 4000 through 0.733
+p1 PASS 4000 boxes
+START continue_certify.py p2 4000
+p2 certified 50 through 1.0237015
+p2 certified 100 through 1.023823
+p2 certified 150 through 1.0239445
+p2 certified 200 through 1.024066
+p2 certified 250 through 1.0241875
+p2 certified 300 through 1.024309
+p2 certified 350 through 1.0244305
+p2 certified 400 through 1.024552
+p2 certified 450 through 1.0246735
+p2 certified 500 through 1.024795
+p2 certified 550 through 1.0249165
+p2 certified 600 through 1.025038
+p2 certified 650 through 1.0251595
+p2 certified 700 through 1.0252809999999999
+p2 certified 750 through 1.0254025
+p2 certified 800 through 1.0255239999999999
+p2 certified 850 through 1.0256455
+p2 certified 900 through 1.0257669999999999
+p2 certified 950 through 1.0258885
+p2 certified 1000 through 1.0260099999999999
+p2 certified 1050 through 1.0261315
+p2 certified 1100 through 1.026253
+p2 certified 1150 through 1.0263745
+p2 certified 1200 through 1.026496
+p2 certified 1250 through 1.0266175
+p2 certified 1300 through 1.026739
+p2 certified 1350 through 1.0268605
+p2 certified 1400 through 1.026982
+p2 certified 1450 through 1.0271035
+p2 certified 1500 through 1.027225
+p2 certified 1550 through 1.0273465
+p2 certified 1600 through 1.027468
+p2 certified 1650 through 1.0275895
+p2 certified 1700 through 1.027711
+p2 certified 1750 through 1.0278325
+p2 certified 1800 through 1.027954
+p2 certified 1850 through 1.0280755
+p2 certified 1900 through 1.028197
+p2 certified 1950 through 1.0283185
+p2 certified 2000 through 1.02844
+p2 certified 2050 through 1.0285615000000001
+p2 certified 2100 through 1.028683
+p2 certified 2150 through 1.0288045000000001
+p2 certified 2200 through 1.028926
+p2 certified 2250 through 1.0290475000000001
+p2 certified 2300 through 1.029169
+p2 certified 2350 through 1.0292905
+p2 certified 2400 through 1.029412
+p2 certified 2450 through 1.0295335
+p2 certified 2500 through 1.029655
+p2 certified 2550 through 1.0297765
+p2 certified 2600 through 1.029898
+p2 certified 2650 through 1.0300195
+p2 certified 2700 through 1.030141
+p2 certified 2750 through 1.0302625
+p2 certified 2800 through 1.030384
+p2 certified 2850 through 1.0305055
+p2 certified 2900 through 1.030627
+p2 certified 2950 through 1.0307485
+p2 certified 3000 through 1.0308700000000002
+p2 certified 3050 through 1.0309915
+p2 certified 3100 through 1.0311130000000002
+p2 certified 3150 through 1.0312345
+p2 certified 3200 through 1.0313560000000002
+p2 certified 3250 through 1.0314775
+p2 certified 3300 through 1.0315990000000002
+p2 certified 3350 through 1.0317205
+p2 certified 3400 through 1.0318420000000001
+p2 certified 3450 through 1.0319635
+p2 certified 3500 through 1.0320850000000001
+p2 certified 3550 through 1.0322065
+p2 certified 3600 through 1.0323280000000001
+p2 certified 3650 through 1.0324495
+p2 certified 3700 through 1.0325710000000001
+p2 certified 3750 through 1.0326925
+p2 certified 3800 through 1.0328140000000001
+p2 certified 3850 through 1.0329355
+p2 certified 3900 through 1.0330570000000001
+p2 certified 3950 through 1.0331785
+p2 certified 4000 through 1.0333
+p2 PASS 4000 boxes
+START continue_certify.py central 4000
+central certified 50 through 0.000294775
+central certified 100 through 0.00058955
+central certified 150 through 0.0008843249999999999
+central certified 200 through 0.0011791
+central certified 250 through 0.001473875
+central certified 300 through 0.0017686499999999999
+central certified 350 through 0.002063425
+central certified 400 through 0.0023582
+central certified 450 through 0.0026529749999999997
+central certified 500 through 0.00294775
+central certified 550 through 0.003242525
+central certified 600 through 0.0035372999999999997
+central certified 650 through 0.003832075
+central certified 700 through 0.00412685
+central certified 750 through 0.004421625
+central certified 800 through 0.0047164
+central certified 850 through 0.005011175
+central certified 900 through 0.005305949999999999
+central certified 950 through 0.005600725
+central certified 1000 through 0.0058955
+central certified 1050 through 0.006190274999999999
+central certified 1100 through 0.00648505
+central certified 1150 through 0.006779825
+central certified 1200 through 0.0070745999999999995
+central certified 1250 through 0.007369375
+central certified 1300 through 0.00766415
+central certified 1350 through 0.007958925
+central certified 1400 through 0.0082537
+central certified 1450 through 0.008548475
+central certified 1500 through 0.00884325
+central certified 1550 through 0.009138025
+central certified 1600 through 0.0094328
+central certified 1650 through 0.009727574999999999
+central certified 1700 through 0.01002235
+central certified 1750 through 0.010317125
+central certified 1800 through 0.010611899999999999
+central certified 1850 through 0.010906675
+central certified 1900 through 0.01120145
+central certified 1950 through 0.011496224999999999
+central certified 2000 through 0.011791
+central certified 2050 through 0.012085775
+central certified 2100 through 0.012380549999999999
+central certified 2150 through 0.012675325
+central certified 2200 through 0.0129701
+central certified 2250 through 0.013264874999999999
+central certified 2300 through 0.01355965
+central certified 2350 through 0.013854425
+central certified 2400 through 0.014149199999999999
+central certified 2450 through 0.014443975
+central certified 2500 through 0.01473875
+central certified 2550 through 0.015033524999999999
+central certified 2600 through 0.0153283
+central certified 2650 through 0.015623074999999998
+central certified 2700 through 0.01591785
+central certified 2750 through 0.016212624999999998
+central certified 2800 through 0.0165074
+central certified 2850 through 0.016802175
+central certified 2900 through 0.01709695
+central certified 2950 through 0.017391725
+central certified 3000 through 0.0176865
+central certified 3050 through 0.017981274999999998
+central certified 3100 through 0.01827605
+central certified 3150 through 0.018570825
+central certified 3200 through 0.0188656
+central certified 3250 through 0.019160375
+central certified 3300 through 0.019455149999999997
+central certified 3350 through 0.019749924999999998
+central certified 3400 through 0.0200447
+central certified 3450 through 0.020339475
+central certified 3500 through 0.02063425
+central certified 3550 through 0.020929025
+central certified 3600 through 0.021223799999999998
+central certified 3650 through 0.021518574999999998
+central certified 3700 through 0.02181335
+central certified 3750 through 0.022108125
+central certified 3800 through 0.0224029
+central certified 3850 through 0.022697675
+central certified 3900 through 0.022992449999999998
+central certified 3950 through 0.023287224999999998
+central certified 4000 through 0.023582
+central PASS 4000 boxes
+START p1_slacks.py
+P1 slack 1 1 (True, (1, 0))
+P1 slack 2 -1 (True, (1, 0))
+P1 slack 3 -1 (True, (1, 0))
+P1 slack 4 -1 (True, (1, 0))
+P1 slack 4 1 (True, (1, 0))
+P1 slack 5 -1 (True, (1, 0))
+P1 slack 5 1 (True, (1, 0))
+P1 slack 6 -1 (True, (1, 0))
+P1 slack 6 1 (True, (1, 0))
+P1 slack 7 -1 (True, (1, 0))
+P1 slack 7 1 (True, (1, 0))
+P1 slack 8 -1 (True, (1, 0))
+P1 slack 8 1 (True, (1, 0))
+P1 slack 9 -1 (True, (1, 0))
+P1 slack 9 1 (True, (1, 0))
+P1 slack 10 -1 (True, (1, 0))
+P1 slack 10 1 (True, (1, 0))
+P1 slack 11 -1 (True, (1, 0))
+P1 slack 11 1 (True, (1, 0))
+P1 slack 12 -1 (True, (1, 0))
+P1 slack 12 1 (True, (1, 0))
+START endpoints.py
+identified p1 [0.7320508075688772935274463415058723669428052538103806280558069794519330169088 +/- 1.98e-77]
+identified p2 [1.03329641666031286760083809931809359409467606388528091693022135848 +/- 5.44e-66]
+identified p2 [1.02358142700776665928483841525269056596688153536182065163313457921 +/- 4.84e-66]
+identified central [0.02358142700776665928483841525269056596688153536182065163313457921 +/- 4.84e-66]
+ALL ENDPOINT IDENTITIES AND BRANCH IDENTIFICATIONS PASSED
+ALL REGIME CERTIFICATES PASSED
+[{"command": ["branch_systems.py"], "exit_code": 0, "seconds": 8.502}, {"command": ["p2_field.py"], "exit_code": 0, "seconds": 143.109}, {"command": ["continue_certify.py", "p1", "4000"], "exit_code": 0, "seconds": 15.278}, {"command": ["continue_certify.py", "p2", "4000"], "exit_code": 0, "seconds": 34.896}, {"command": ["continue_certify.py", "central", "4000"], "exit_code": 0, "seconds": 174.063}, {"command": ["p1_slacks.py"], "exit_code": 0, "seconds": 4.37}, {"command": ["endpoints.py"], "exit_code": 0, "seconds": 9.831}]

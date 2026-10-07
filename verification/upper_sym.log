@@ -1,0 +1,42 @@
+=== (S1) factorisation K = (G-c)(g*alpha - h*beta), general weights, lags {2,3,5}
+  identity holds: True
+  r_m = 1/U_{m-1}(ch t): True
+  lags {2,3}: alpha = M/(G(4G^2-1)), beta = N/(G(4G^2-1)): True True
+=== (S2) master equation <=> u = 1 - 1/(2G)
+  (Y-1/Y)/2 - 1 + 1/(2G) = H_q(X)/(2qX(X^2+1)) : True
+  on the branch g = u/G at c = c_k: True
+=== (S3) the tight weight W(G) and the rank condition D2 != D3
+  K(t_k, c_k) = 0 : True
+  W(G) = 2(1+2G-2G^2)/(4G+1) : True ;  1-W = (4G^2-1)/(4G+1): True
+  d/dc (r2F2 - r3F3) at the branch point = (4*G + 1)*(2*G**2 + 1)/(2*G**3*(2*G + 1))
+  [so D2 - D3 = -sin(w_k) * that, nonzero for G >= 1]
+=== (S4) K(t_k, c) = -(G-c)(2Gc+1)^2 Q(c) / (2 G^3 (4G+1)),  Q = 2Gc^2-(2G-1)c+4G(G-1)
+  identity: True
+  disc_c Q = -p1(G): True ; Q(c_v) = p1/(8G), c_v=(2G-1)/(4G): True
+  Q(0) = 4G(G-1), Q(1) = (2G-1)^2, Q(-1) = (2*G - 1)*(2*G + 1)
+=== (S5) roots: p1 and 2G^2-2G-1
+  real roots of p1 (exact count via Sturm): 1  isolating: [((1620619/1568397, 824771/798194), 1)]
+  p1(1) = -1 ;  G_W = (1+sqrt3)/2 root of 2G^2-2G-1;  G_W^2 < 2 : True
+=== (S6) minimal polynomials of rho, q, kappa at the thresholds
+  numerics: kappa_W = 2.656461452604688490293354, kappa_1 = 7.731946164457885729285026, kappa_2 = 71.14731887448596181100112
+  [kappa_W] rho: r**4 - 2*r**3 - 2*r + 1
+        q  : 4*(q**8 + 8*q**6 + 96*q**5 - 66*q**4 - 96*q**3 + 8*q**2 + 1)
+        kappa: 4096*(9*kappa**8 - 720*kappa**7 + 4188*kappa**6 - 10032*kappa**5 + 13366*kappa**4 - 10032*kappa**3 + 4188*kappa**2 - 720*kappa + 9)
+        number of irreducible factors (rho, q, kappa): [1, 1, 1]
+        kappa = 2.6564614526046884903 is a root of 9*kappa**8 - 720*kappa**7 + 4188*kappa**6 - 10032*kappa**5 + 13366*kappa**4 - 10032*kappa**3 + 4188*kappa**2 - 720*kappa + 9 ; derivative there -66300.5
+  [kappa_1,2] rho: 4*r**6 - 9*r**5 + 14*r**4 - 19*r**3 + 14*r**2 - 9*r + 4
+        q  : 16*q**12 - 24*q**11 - 993*q**10 + 48*q**9 + 18350*q**8 + 26088*q**7 - 25507*q**6 - 26088*q**5 + 18350*q**4 - 48*q**3 - 993*q**2 + 24*q + 16
+        kappa: 85359121*kappa**12 - 7640293900*kappa**11 + 122500451042*kappa**10 - 822540883676*kappa**9 + 2941247472863*kappa**8 - 6164897041176*kappa**7 + 7866784838748*kappa**6 - 6164897041176*kappa**5 + 2941247472863*kappa**4 - 822540883676*kappa**3 + 122500451042*kappa**2 - 7640293900*kappa + 85359121
+        number of irreducible factors (rho, q, kappa): [1, 1, 1]
+        kappa = 7.7319461644578857293 is a root of 85359121*kappa**12 - 7640293900*kappa**11 + 122500451042*kappa**10 - 822540883676*kappa**9 + 2941247472863*kappa**8 - 6164897041176*kappa**7 + 7866784838748*kappa**6 - 6164897041176*kappa**5 + 2941247472863*kappa**4 - 822540883676*kappa**3 + 122500451042*kappa**2 - 7640293900*kappa + 85359121 ; derivative there -8.53391e+17
+        kappa = 71.147318874485961811 is a root of 85359121*kappa**12 - 7640293900*kappa**11 + 122500451042*kappa**10 - 822540883676*kappa**9 + 2941247472863*kappa**8 - 6164897041176*kappa**7 + 7866784838748*kappa**6 - 6164897041176*kappa**5 + 2941247472863*kappa**4 - 822540883676*kappa**3 + 122500451042*kappa**2 - 7640293900*kappa + 85359121 ; derivative there 1.54629e+28
+=== (S7) auxiliary exact facts
+  p1(26/25) = 3407/15625  (>0);  p1'(G) = 96G^2-72G+4 >= 28 for G >= 1
+  c_* (root > 1 of 4c^4-8c^2+4c-1) in [((60383/52581, 25068/21829), 1)] ; G_1 < 26/25 < c_* < 23/20 < G_W: True True True
+  W in rho: -(rho**4 - 2*rho**3 - 2*rho + 1)/(rho*(2*rho**2 + rho + 2)) ;  1-W: (rho**2 - rho + 1)*(rho**2 + rho + 1)/(rho*(2*rho**2 + rho + 2))
+  kappa >= 3+2sqrt2 <=> q >= sqrt2-1 <=> t_max >= 0 : True
+  closed forms sqrt(kappa) = coth((v-t)/2):
+    kappa_W: 2.656461452604688490293354
+    kappa_1: 7.731946164457885729285026
+    kappa_2: 71.14731887448596181100112
+    kappa_c = coth^2(asinh(1/2)/2) = phi^6 = 9+4sqrt5: True True

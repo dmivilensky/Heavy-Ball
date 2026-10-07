@@ -1,0 +1,4 @@
+spiral: #real roots in [1, oo] of Res(P,P_s): 0 ; of Res(P,N): 0
+ch(0.2) = 1.02006675561908  ch t_a (t_a~0.2149) ~ 1.02318000766483  c_1 = 1.03329641666031
+two-atom P2: #real roots in [51/50, 26/25] of Res(P,P_s): 0 ; of Res(P,N): 0
+one-wave P1: #real roots in [34/25, oo] of Res(P,P_s): 0 ; of Res(P,N): 0

@@ -1,0 +1,51 @@
+== endpoints ==
+  H_{q(2)}(33/100) = -2027276279/100000000 + 3583737/250000 sqrt2, sign -1  => rho(2) > 33/100: True
+  P_*(1713/1000) = 111234161/1000000000000 > 0, P_*(1) = -2 < 0 => 1 < rho_* < 1713/1000: True
+== Region I: rho in [33/100, 1]  (kappa in [2, kappa_c]) ==
+  [I-.a  gamma- + A0 > 0] on [33/100, 1]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 133/200 = 1  -> PROVED
+  [I-.b  (gamma- + A0)^2 - |beta-|^2 > 0] on [33/100, 1]: deg G = 96, roots(den) = 0, roots(G) = 2 (all on branch q_-: True), sign at 133/200 = 1  -> PROVED
+  [I+.a  gamma+ + A0 > 0] on [33/100, 1]: deg G = 48, roots(den) = 0, roots(G) = 2 (all on branch q_-: True), sign at 133/200 = 1  -> PROVED
+  [I+.b  (gamma+ + A0)^2 - |beta+|^2 > 0] on [33/100, 1]: deg G = 96, roots(den) = 0, roots(G) = 2 (all on branch q_-: True), sign at 133/200 = 1  -> PROVED
+== Region II: rho in [1, 6/5] ==
+  [II0-  1 - |beta-|^2 > 0] on [1, 6/5]: deg G = 24, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II0+  1 - |beta+|^2 > 0] on [1, 6/5]: deg G = 20, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-  A2 = a- - epsbar > 0] on [1, 6/5]: deg G = 18, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-,r=0  P(1) > 0] on [1, 6/5]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-,r=0  P'(1) = 2A2+B2 > 0] on [1, 6/5]: deg G = 18, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-,r=1  P(1) > 0] on [1, 6/5]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-,r=1  P'(1) = 2A2+B2 > 0] on [1, 6/5]: deg G = 18, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-,r=2  P(1) > 0] on [1, 6/5]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II-,r=2  4A2C2 - B2^2 > 0] on [1, 6/5]: deg G = 64, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+  A2 = a+ - epsbar > 0] on [1, 6/5]: deg G = 18, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+,r=0  P(1) > 0] on [1, 6/5]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+,r=0  4A2C2 - B2^2 > 0] on [1, 6/5]: deg G = 64, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+,r=1  P(1) > 0] on [1, 6/5]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+,r=1  4A2C2 - B2^2 > 0] on [1, 6/5]: deg G = 64, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+,r=2  P(1) > 0] on [1, 6/5]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+  [II+,r=2  P'(1) = 2A2+B2 > 0] on [1, 6/5]: deg G = 22, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 11/10 = 1  -> PROVED
+== Region III: rho in [6/5, 1713/1000] ==
+  [III-.tail1  (2a rho^10)^2 - |beta|^2 > 0] on [6/5, 1713/1000]: deg G = 56, roots(den) = 0, roots(G) = 1 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III-.tail2  a rho^20 + gamma + A0 > 0] on [6/5, 1713/1000]: deg G = 66, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III-.tail3  (a rho^20+gamma+A0)^2 - |beta|^2 rho^20 > 0] on [6/5, 1713/1000]: deg G = 132, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III+.tail1  (2a rho^10)^2 - |beta|^2 > 0] on [6/5, 1713/1000]: deg G = 64, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III+.tail2  a rho^20 + gamma + A0 > 0] on [6/5, 1713/1000]: deg G = 70, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III+.tail3  (a rho^20+gamma+A0)^2 - |beta|^2 rho^20 > 0] on [6/5, 1713/1000]: deg G = 140, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=1  R-T > 0] on [6/5, 1713/1000]: deg G = 24, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=1  R+T > 0] on [6/5, 1713/1000]: deg G = 24, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=2  R-T > 0] on [6/5, 1713/1000]: deg G = 28, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=2  R+T > 0] on [6/5, 1713/1000]: deg G = 28, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=3  R-T > 0] on [6/5, 1713/1000]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=3  R+T > 0] on [6/5, 1713/1000]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=4  R-T > 0] on [6/5, 1713/1000]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=4  R+T > 0] on [6/5, 1713/1000]: deg G = 48, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=5  R-T > 0] on [6/5, 1713/1000]: deg G = 72, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=5  R+T > 0] on [6/5, 1713/1000]: deg G = 72, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=6  R-T > 0] on [6/5, 1713/1000]: deg G = 72, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=6  R+T > 0] on [6/5, 1713/1000]: deg G = 72, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=7  R-T > 0] on [6/5, 1713/1000]: deg G = 96, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=7  R+T > 0] on [6/5, 1713/1000]: deg G = 96, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=8  R-T > 0] on [6/5, 1713/1000]: deg G = 96, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=8  R+T > 0] on [6/5, 1713/1000]: deg G = 96, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=9  R-T > 0] on [6/5, 1713/1000]: deg G = 120, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+  [III.k=9  R+T > 0] on [6/5, 1713/1000]: deg G = 120, roots(den) = 0, roots(G) = 0 (all on branch q_-: True), sign at 2913/2000 = 1  -> PROVED
+ALL PROVED

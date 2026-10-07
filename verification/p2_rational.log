@@ -1,0 +1,152 @@
+--- identities
+OK   Lemma curve: P2(G(z),u(z))=0
+OK   P2(G,sG)=G^2(alpha G^4+beta G^2+gamma)
+OK   discriminant factorization
+OK   u/G formula
+OK   K6 = z^4(z-2)^2+8(z-1)^2
+OK   1-W = e-^2 e+^2/(8 r+ K6)
+OK   M = G(4G^2-1) alpha, N = G(4G^2-1) beta
+OK   Lemma p2ids(b): -{(k-u^2)M-2ukN} = 4G(1-W)(c^2+ac+b)^2
+OK   Lemma p2ids(c): l1=u2=u3=0
+OK   Lemma p2ends(a): 32G^3-36G^2+4G-1 factorization
+OK   Lemma p2ends(a): u-1+1/(2G) = 8 f1^2/(r- r+ q- q+)
+OK   Lemma p2ends(b): N12 divides numerator of Ha(G(z))
+OK   dG/dz = r+ e- e+/(8 z^2 r-^2)
+OK   1+a+b = q-^3 e+/(2z r-^2 r+)
+OK   1-a+b = -q-^3 e-/(2z r-^2 r+)
+OK   2-a formula
+OK   2+a formula
+OK   q(mc) formula
+OK   gbar = int g dnu = 1-u^2+a mc+b
+OK   gbar = 8 z q-^4 N8/(r-^2 r+^2 M10)
+OK   du/dG formula
+OK   Table p2lags row v_1: residual is a polynomial
+OK   Table p2lags row l_2: residual is a polynomial
+OK   Table p2lags row l_3: residual is a polynomial
+OK   Table p2lags row l_4: residual is a polynomial
+OK   Table p2lags row v_4: residual is a polynomial
+OK   Table p2lags row l_5: residual is a polynomial
+OK   Table p2lags row v_5: residual is a polynomial
+OK   Table p2lags row l_6: residual is a polynomial
+OK   Table p2lags row v_6: residual is a polynomial
+OK   Table p2lags row l_7: residual is a polynomial
+OK   Table p2lags row v_7: residual is a polynomial
+OK   Table p2lags row l_8: residual is a polynomial
+OK   Table p2lags row v_8: residual is a polynomial
+OK   Table p2lags row l_9: residual is a polynomial
+OK   Table p2lags row v_9: residual is a polynomial
+OK   row v5: residual = N12
+OK   rows l1? (v1,l2 have no residual): residual constants
+--- signs on J=[1.6955,1.699] by single-centre Taylor dominance
+OK   dominance z                                  deg  1 ratio 0.0010
+OK   table sign z
+OK   dominance q-                                 deg  2 ratio 0.0016
+OK   table sign q-
+OK   dominance q+                                 deg  2 ratio 0.0011
+OK   table sign q+
+OK   dominance r-                                 deg  2 ratio 0.0067
+OK   table sign r-
+OK   dominance r+                                 deg  2 ratio 0.0012
+OK   table sign r+
+OK   dominance e+                                 deg  2 ratio 0.0022
+OK   table sign e+
+OK   dominance 7z^2-18z+14                        deg  2 ratio 0.0028
+OK   table sign 7z^2-18z+14
+OK   dominance K6                                 deg  6 ratio 0.0030
+OK   table sign K6
+OK   dominance e-                                 deg  2 ratio 0.0010
+OK   table sign e-
+OK   dominance z^2-4z+2                           deg  2 ratio 0.0006
+OK   table sign z^2-4z+2
+OK   dominance 3z^4-..                            deg  4 ratio 0.0779
+OK   table sign 3z^4-..
+OK   dominance sextic(2-a)                        deg  6 ratio 0.0095
+OK   table sign sextic(2-a)
+OK   dominance sextic(2+a)                        deg  6 ratio 0.0086
+OK   table sign sextic(2+a)
+OK   dominance z^4-2z^3-4z+4                      deg  4 ratio 0.0007
+OK   table sign z^4-2z^3-4z+4
+OK   dominance z^4+2z^3-8z^2+4z+4                 deg  4 ratio 0.0041
+OK   table sign z^4+2z^3-8z^2+4z+4
+OK   dominance z^3+2z-4                           deg  3 ratio 0.0044
+OK   table sign z^3+2z-4
+OK   dominance N10                                deg 10 ratio 0.0016
+OK   table sign N10
+OK   dominance M10                                deg 10 ratio 0.0033
+OK   table sign M10
+OK   dominance N8                                 deg  8 ratio 0.0053
+OK   table sign N8
+OK   dominance D14                                deg 14 ratio 0.1962
+OK   table sign D14
+OK   dominance N12'                               deg 11 ratio 0.0181
+OK   table sign N12'
+OK   dominance R_3-                               deg 12 ratio 0.0744
+OK   dominance R_4-                               deg 16 ratio 0.1817
+OK   dominance R_4+                               deg 10 ratio 0.0570
+OK   dominance R_5-                               deg 24 ratio 0.0028
+OK   dominance R_6-                               deg 28 ratio 0.1149
+OK   dominance R_6+                               deg 14 ratio 0.1656
+OK   dominance R_7-                               deg 36 ratio 0.0304
+OK   dominance R_7+                               deg 20 ratio 0.0646
+OK   dominance R_8-                               deg 44 ratio 0.0109
+OK   dominance R_8+                               deg 24 ratio 0.5292
+OK   dominance R_9-                               deg 44 ratio 0.0920
+OK   dominance R_9+                               deg 32 ratio 0.3464
+--- root isolation
+OK   f1(1.6956)<0<f1(1.6957), f1 increasing for z>2/3
+OK   N12(1.6989)>0>N12(1.699)
+OK   J contains [zeta_1,zeta_a]
+--- Theorem p2
+OK   (i) G decreasing
+OK   dominance G-1.0233 factor                    deg  4 ratio 0.9838
+OK   (i) G>1.0233
+OK   dominance 1.0337-G factor                    deg  4 ratio 0.9939
+OK   (i) G<1.0337
+OK   dominance u-0.511 factor                     deg  4 ratio 0.8338
+OK   (i) u>0.511
+OK   dominance 0.517-u factor                     deg  4 ratio 0.7743
+OK   (i) u<0.517
+OK   (ii) b<0
+OK   (ii) 1+a+b>0, 1-a+b>0
+OK   (ii) |a|<2
+OK   dominance q(-0.505) factor                   deg  8 ratio 0.9253
+OK   dominance q(-0.48) factor                    deg  8 ratio 0.7927
+OK   dominance q(0.25) factor                     deg  8 ratio 0.6382
+OK   dominance q(0.285) factor                    deg  8 ratio 0.6879
+OK   (ii) atom ranges
+OK   dominance mc+a/2 factor                      deg 16 ratio 0.0167
+OK   (iii) mc+a/2<0
+OK   (iii) q(mc)/f1 < 0 on J
+OK   dominance W-0.362 factor                     deg  8 ratio 0.6077
+OK   (iv) W>0.362
+OK   dominance 0.366-W factor                     deg  8 ratio 0.5050
+OK   (iv) W<0.366
+OK   (v) d>0
+OK   dominance gbar-0.28 factor                   deg 18 ratio 0.0047
+OK   (v) gbar>0.28
+OK   dominance eta factor                         deg 44 ratio 0.9503
+OK   (v) (gbar-0.28)^2(G^2-1)>d^2
+OK   dominance 1.05-gbar-2u^2 factor              deg 18 ratio 0.3409
+OK   (vi) gbar+2u^2<1.05
+OK   (vi) T_10(1.0233)>4.369
+OK   (vi) 0.28*4.369-1.05>0.17
+OK   (vi) slack v_1>0
+OK   (vi) slack l_2>0
+OK   (vi) slack l_3>0
+OK   (vi) slack l_4>0
+OK   (vi) slack v_4>0
+OK   (vi) slack l_5>0
+OK   (vi) v5 = N12*(positive)
+OK   (vi) slack l_6>0
+OK   (vi) slack v_6>0
+OK   (vi) slack l_7>0
+OK   (vi) slack v_7>0
+OK   (vi) slack l_8>0
+OK   (vi) slack v_8>0
+OK   (vi) slack l_9>0
+OK   (vi) slack v_9>0
+OK   (vii) 0<du/dG
+OK   dominance 1-uG factor                        deg  8 ratio 0.0048
+OK   (vii) du/dG<1
+number of certified factors: 48  max ratio: 0.9939456724542303
+ALL CHECKS PASSED

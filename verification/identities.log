@@ -1,0 +1,33 @@
+OK    normalization: A + B = 1 + beta - x, A - B = 1 + beta - y
+OK    eq. factor: (1 - m)(1 + conj m) = -a(z) conj b(z) / (B^2 |z|^2)
+OK    Lemma angle: g sin(w) = 2 s Xi(cos w) at t = 0
+OK    Lemma angle: s = (1 - beta) sin(w) / B at t = 0
+OK    Lemma angle: Xi(1) = (B^2 - (1 + beta - A)^2)/(2B(1 - beta))
+OK    Lemma angle: Xi(-1) = (B^2 - (1 + beta + A)^2)/(2B(1 - beta))
+OK    Lemma cubic: H_r(cos w) = Re[(1 - z) a(z) conj b(z)], z = r e^{iw}
+OK    Lemma cubic: H_1 = (1 - c) L(c)
+OK    eq. E: L(c) = (y - x)(1 - beta)(1 + c - Xi(c))
+OK    Lemma cubic: L(-1) = (2 + 2beta - x)(2 + 2beta - y)
+OK    Lemma cubic: L(1) = 2(1 - beta)(y - x) + x y
+OK    eq. gtd: GTD Theorem 3.5 polynomial = (mu/L) L(c)
+OK    Corollary C(b): L(c) - (y-x)(1-beta)(1+c-h) = -(y-x)(1-beta)(Xi(c)-h)
+OK    Lemma Kmu: H_r = (1 - c) K_mu when a(r) = 0
+OK    Lemma Kmu: H_r = (1 + c) K_L when b(-r) = 0
+OK    Lemma Kmu: K_mu(-1) = (beta + r^2)(1 + r) b(-r)
+OK    Lemma Kmu: K_L(1) = (beta + r^2)(1 - r) a(r)
+OK    Lemma Kmu: leading coefficients 4 beta r^3 and -4 beta r^3
+OK    Theorem B(b): a(z) - b(z) = (x - y) z
+OK    Lemma near1: gamma(1)/2 + gamma'(1) = L(1)/(2y^2)
+OK    Corollary D(a): Xi = (1 - c^2 - u0^2)/(2 u0)
+OK    Corollary D(a): 2u0(1 + c - Xi) = (c + u0)^2 + 2u0 - 1
+OK    Corollary D(a): value at c = -1/2 equals (u0 + 3/2)(u0 - 1/2)
+OK    Corollary D(a): a(z) = (z - q)^2, b(z) = (z + q)^2
+OK    Corollary D(b): L(c) = 2(y - 1)c + 2 - 2x + xy at beta = 0
+OK    Corollary D(b): K_mu = r^3{2r(y-1)c + r^2 + ry - y + 1} at beta = 0
+OK    Corollary D(b): K_mu(-1) = r^3(1 + r)(1 + r - y) at beta = 0
+OK    Corollary D(b): K_mu(1) = r^3{(1-r)^2 + y(3r-1)} at beta = 0
+OK    Corollary D(b): K_mu(1) - 4r^5 = r^3 (1+r-y)(1-3r) at beta = 0
+OK    Corollary D(b): K_L(-1) = r^3{3r^2 + 2r - 1 + x(1-r)} at beta = 0
+OK    Corollary D(b): K_L(-1) - 4r^5 = r^3 (1-r)(x - 1 + r) at beta = 0
+OK    Lemma symbols (a): both forms of the symbol agree at 40 random points (max diff 1.8e-12)
+ALL OK

@@ -1,0 +1,10 @@
+OK    Theorem farey(a): lines through (j,k) with |n|<k are the parent lags b and -d (k <= 80)
+OK    Theorem farey(b): violated lags of one atom at 2 pi j/k (k <= 80, 37 phases each)
+OK    Lemma fan: neighbors, parents, U, fan lines and congruences (K, p, m <= 40)
+OK    equation Lambdapoly for |n| <= 8 (exact)
+OK    Theorem lattice(b): Lambda_n < 0 iff 0 < n xi - l eta < 1 (4000 random points)
+OK    Theorem fan-div(b): values of Lambda_1, Lambda_{-K} at the fan frequencies and their signs
+OK    Theorem fan-div(b): a two-atom measure satisfies lags 1 and -K iff Delta_p >= 0
+OK    Theorem fan-div(c): Delta_2 / sin(pi/k) equals the mediant expression
+OK    Lemma pin: D, E vanish at 2 pi j/k with the stated derivatives (finite differences)
+ALL OK

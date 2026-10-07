@@ -1,0 +1,12 @@
+orders: [0, 112*(2*d1 + 1), 16*(7*d1**2 - 43*d1 + 14*d2 - 25)]
+order z^1: solve for d1: [-1/2]
+order z^2: solve for d2: [1/8]
+order z^3: solve for d3: [-1/4]
+order z^4: solve for d4: [19/128]
+order z^5: solve for d5: [-1/8]
+order z^6: solve for d6: [77/1024]
+one-wave: sh v = 77*z**6/1024 - z**5/8 + 19*z**4/128 - z**3/4 + z**2/8 - z/2 + 1
+spiral  : sh v = 1 - z/2
+spiral   rho/q = 45*sqrt(2)*q**3/16 + 4*q**3 + 4*q**2 + 23*sqrt(2)*q**2/8 - 3*sqrt(2)*q/2 - 2*q + 1 + sqrt(2)
+one-wave rho/q = -385*sqrt(2)*q**3/16 - 34*q**3 + 13*q**2/2 + 37*sqrt(2)*q**2/8 - 3*sqrt(2)*q/2 - 2*q + 1 + sqrt(2)
+difference (one-wave - spiral) = -q**3*(304*q + 215*sqrt(2)*q - 20 - 14*sqrt(2))/8
